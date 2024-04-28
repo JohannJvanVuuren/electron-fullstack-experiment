@@ -1,0 +1,12 @@
+.landing-page {
+  max-width: 1000px;
+  margin: 3rem auto;
+  display: flex;
+  flex-wrap: wrap;
+
+
+  &__card {
+    padding: 2rem;
+    margin: 1rem;
+  }
+}

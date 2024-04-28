@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #FAF9F6;
+  font-family: "Lato", helvetica, arial, sans-serif;
+}
+
+.heading--primary {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 300;
+  text-shadow: 2px 2px 3px rgba(14, 17, 17, 0.4);
+}
+
+.header-navigation__link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px rgba(14, 17, 17, 0.4);
+}
+
+.landing-page__card {
+  color: #FAF9F6;
+  font-size: 1.6rem;
+  letter-spacing: 0.25rem;
+}
+.landing-page .ant-card .ant-card-head {
+  color: #FAF9F6;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 6px rgba(250, 249, 246, 0.4);
+}
+
+.form__group input,
+.form__group select {
+  border: none;
+  box-shadow: 0 1rem 2rem rgba(14, 17, 17, 0.3);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-weight: 700;
+}
+.form__group label {
+  font-weight: 700;
+  font-size: 1.2rem;
+  opacity: 0;
+}
+.form__group input:focus + .form__label,
+.form__group select:focus + .form__label {
+  opacity: 1;
+}
+.form__group select {
+  text-align: center;
+}
+.form__group:last-child {
+  margin-top: 6rem;
+}
+
+.header {
+  background-color: #c4c4c4;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 4rem rgba(14, 17, 17, 0.4);
+  padding: 2rem;
+}
+.header-navigation__link {
+  padding: 1rem;
+  box-shadow: 0.5rem 0.5rem 2rem rgba(14, 17, 17, 0.4);
+  border-radius: 1rem;
+}
+
+.landing-page__card {
+  background-color: #0E1111;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form__group {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.form__group input,
+.form__group label,
+.form__group select {
+  margin: 0.5rem;
+}
+
+.header {
+  display: grid;
+  grid-template-areas: "blank heading nav";
+  grid-template-columns: repeat(3, 1fr);
+  height: 10rem;
+  margin: 1rem;
+  padding: 2rem;
+}
+.header-heading {
+  grid-area: heading;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-navigation {
+  grid-area: nav;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.header-navigation__link {
+  margin: 0 1rem;
+}
+
+.landing-page {
+  max-width: 1000px;
+  margin: 3rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.landing-page__card {
+  padding: 2rem;
+  margin: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */

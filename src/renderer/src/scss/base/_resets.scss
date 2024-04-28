@@ -1,0 +1,21 @@
+@import '../abstract/variables';
+
+// Global resets
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Setting 1rem = 10px for ease of use
+html {
+  font-size: 62.5%;
+}
+
+// Setting body general properties
+body {
+  background: $color-white;
+  font-family: 'Lato', helvetica, arial, sans-serif;
+}
